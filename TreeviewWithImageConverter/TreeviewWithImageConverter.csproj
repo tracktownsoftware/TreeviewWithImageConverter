@@ -7,18 +7,25 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Update="images\EngineCode.png">
+    <None Remove="images\EngineCode.png" />
+    <None Remove="images\FolderClosed-32.png" />
+    <None Remove="images\FolderOpened-32.png" />
+    <None Remove="images\WindowsCode.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\EngineCode.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="images\FolderClosed-32.png">
+    </Resource>
+    <Resource Include="images\FolderClosed-32.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="images\FolderOpened-32.png">
+    </Resource>
+    <Resource Include="images\FolderOpened-32.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="images\WindowsCode.png">
+    </Resource>
+    <Resource Include="images\WindowsCode.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    </Resource>
   </ItemGroup>
 
 </Project>
